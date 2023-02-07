@@ -7,7 +7,7 @@
     <body>
         <p>
             One interesting fact about me is I recently became a fan of Harry Potter and
-            want to read the books one day.
+            want to read the books one day. I recently bought the Hogwarts Legacy video game and love it.
         </p>
         <h2>Favorite Book: Moonwalking with Einstein </h2>
         <p>
@@ -18,7 +18,52 @@
                 height="700" width="900"
                 alt="five steps to remembering"><br>
         <a href="https://www.biggerplate.com/mindmaps/WDTO8MFp/moonwalking-with-einstein-5-steps-to-remember-more">Credit to image source</a>
+        <hr>
+        <h2>Recommended Countries to Visit</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Reason Why</th>
+                <th>Days Spent</th>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>Outstanding architecture</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Greece</td>
+                <td>Beautiful history and museums</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Spain</td>
+                <td>Barcelona! Great views and music</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>Anime park</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Code Snippet</h2>
+        <blockquote cite="https://stackoverflow.com/questions/66002689/add-bootstrap-css-to-wordpress-admin-area-without-adding-main-style-css">Add Bootstrap css to wordpress admin area without adding main style.css?</blockquote>
+        <a href="https://stackoverflow.com/questions/66002689/add-bootstrap-css-to-wordpress-admin-area-without-adding-main-style-css">Source</a>
+        <pre>
+            add_action('admin_head', 'my_custom_fonts');
 
+            function my_custom_fonts() {
+              echo '<style>
+                body, td, textarea, input, select {
+                  font-family: "Lucida Grande";
+                  font-size: 12px;
+                } 
+              </style>';
+            } 
+        </pre>
+        
 
 
     </body>
